@@ -115,7 +115,7 @@ h2 {
 }
 
 .navbar-right {
-  background-color: #1B7B98;
+  background-color: #D5F5F1;
   padding:0 95px 0 0;
   opacity: .9
 }
@@ -123,7 +123,7 @@ h2 {
 .navbar-right li a {
   padding: 35px 21px;
   font-size: 22px;
-  color: #fff;
+  color: #3CC9B9;
   text-transform: uppercase;
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
   font-weight: 300;
@@ -138,7 +138,7 @@ h2 {
 
 
 .fixed-menu {
-  background-color: #1B7B98;
+  background-color: #D5F5F1;
   position: fixed;
   top: 0;
 }
