@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
 
-
 /*************************
 *******Typography******
 **************************/
@@ -102,16 +101,16 @@ h2 {
 }
 
 .navbar-brand {
-  background-color: #1B7B98;
+  background-color: #D5F5F1;
   height: 90px;
   margin-bottom: 20px;
   position: relative;
-  width: 297px;
+  width: 194px;
 }
 
 .navbar-brand img {
   position: absolute;
-  top: 7px;
+  top: -35px;
 }
 
 .navbar-right {
