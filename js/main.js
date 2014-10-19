@@ -21,14 +21,18 @@ jQuery(function($) {'use strict',
 		if(windowWidth > 767 ){
 			$(window).on('scroll', function(){
 				if( $(window).scrollTop()>75 ){
-					$('.main-nav').addClass('fixed-menu animated slideInDown');
+					$('.main-nav').addClass('fixed-menu');
+                    $('.cart').removeClass('hide');
+                    $('.cart').addClass('animated slideInRight');
 				} else {
-					$('.main-nav').removeClass('fixed-menu animated slideInDown');
+					$('.main-nav').removeClass('fixed-menu');
+                    $('.cart').addClass('hide');
+                    $('.cart').removeClass('animated slideInRight');
 				}
 			});
 		}else{
 			
-			$('.main-nav').addClass('fixed-menu animated slideInDown');
+			$('.main-nav').addClass('fixed-menu');
 				
 		}
 	}
