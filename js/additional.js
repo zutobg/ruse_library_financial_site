@@ -3,6 +3,7 @@
  */
 $(document).ready(function() {
     $(".cart").hover(function () {
-        $("#fbSidebar").slideToggle("slow");
+        //$("#fbSidebar").slideToggle("slow");
+        $("#fbSidebar").animate({width:'toggle'});
     });
 });
