@@ -354,18 +354,33 @@ h2 {
 }
 
 .cart {
-  background-color: #b34534;  
-  position: absolute;
-  right:-200px;
+  background-color: #504fb3;
+  position: fixed;
+  right:0px;
   top: 37%;
-  width:252px;
-   -webkit-transition: all 0.7s ease-in-out;
+  width:37px;
+  z-index: 99998;
+  -webkit-transition: all 0.7s ease-in-out;
   -moz-transition: all 0.7s ease-in-out;
   -ms-transition: all 0.7s ease-in-out;
   -o-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
 }
 
+.hide {
+  display: none;
+}
+
+#fbSidebar{
+    background-color: #c2dbd7;
+    position: fixed;
+    display: none;
+    top: -150%;
+    right: 0px;
+    width: 200px;
+    z-index: 99999;
+}
+/*
 .cart:hover {
   right:0;
 }
@@ -377,11 +392,12 @@ h2 {
   font-size: 24px;
   text-transform: uppercase;
 }
+*/
 
-.cart a i {
-  font-size: 30px;  
+.cart i {
+  font-size: 30px;
   padding: 20px 12px;
-  background-color: #A64030; 
+  background-color: #504fb3;
   margin-right: 3px;
 }
 
